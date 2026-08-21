@@ -1,0 +1,10 @@
+/* ============================
+   1. Variables de color
+   ============================ */
+:root {
+  --rosa-cuarzo: #f7cac9;
+  --serenidad: #92a8d1;
+  --violeta: #6c5ce7;      /* violeta/índigo para acentos */
+  --violeta-oscuro: #4b3fb0;
+  --texto-oscuro: #2d2d3a;
+}
