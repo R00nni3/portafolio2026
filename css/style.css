@@ -85,3 +85,46 @@ body {
   color: var(--violeta);
   font-weight: 600;
 }
+
+/* ============================
+   NEWSLETTER
+   ============================ */
+.bg-ink-800 {
+  background-color: var(--violeta) !important;
+  color: #ffffff;
+}
+
+.bg-ink-800 .eyebrow {
+  color: #ffffff;
+}
+
+.bg-ink-800 p {
+  color: #ffffff !important;
+}
+
+.btn-amber {
+  background-color: #ffffff;
+  color: var(--violeta);
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.btn-amber:hover {
+  background-color: var(--rosa-cuarzo);
+}
+
+.form-control-terminal {
+  border-radius: 6px;
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+.form-label-terminal {
+  color: #ffffff;
+  font-size: 0.85rem;
+  margin-bottom: 0.3rem;
+  display: block;
+}
