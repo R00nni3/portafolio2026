@@ -4,7 +4,35 @@
 :root {
   --rosa-cuarzo: #f7cac9;
   --serenidad: #92a8d1;
-  --violeta: #6c5ce7;      /* violeta/índigo para acentos */
+  --violeta: #6c5ce7;      
   --violeta-oscuro: #4b3fb0;
   --texto-oscuro: #2d2d3a;
+}
+
+/* ============================
+   Base
+   ============================ */
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, var(--rosa-cuarzo) 0%, var(--serenidad) 100%);
+  min-height: 100vh;
+  color: var(--texto-oscuro);
+}
+
+/* ============================
+   NAVBAR 
+   ============================ */
+.logo-letter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background-color: var(--violeta);
+  color: #ffffff;
+  font-weight: 700;
+  font-family: 'JetBrains Mono', monospace;
+  border-radius: 8px;
+  margin-right: 8px;
+  font-size: 0.95rem;
 }
