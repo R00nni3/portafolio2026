@@ -20,7 +20,7 @@ body {
 }
 
 /* ============================
-   NAVBAR 
+   Letra del logo en Navbar
    ============================ */
 .logo-letter {
   display: inline-flex;
@@ -35,4 +35,28 @@ body {
   border-radius: 8px;
   margin-right: 8px;
   font-size: 0.95rem;
+}
+
+/* ============================
+   HERO 
+   ============================ */
+.hero h1 {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
+  color: var(--violeta);
+}
+
+.hero .card {
+  border-color: var(--violeta) !important;
+  background-color: #ffffff;
+}
+
+.hero .card-header {
+  background-color: var(--violeta);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.hero .card-body.text-primary {
+  color: var(--violeta-oscuro) !important;
 }
