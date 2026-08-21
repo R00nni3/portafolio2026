@@ -40,7 +40,7 @@ body {
 /* ============================
    HERO 
    ============================ */
-.hero h1 {
+.titulo-destacado {
   font-family: 'JetBrains Mono', monospace;
   font-weight: 700;
   color: var(--violeta);
