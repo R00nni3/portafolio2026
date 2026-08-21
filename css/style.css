@@ -60,3 +60,28 @@ body {
 .hero .card-body.text-primary {
   color: var(--violeta-oscuro) !important;
 }
+
+/* ============================
+  Habilidades
+   ============================ */
+.eyebrow {
+  color: var(--violeta);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+}
+
+.eyebrow::before {
+  content: "⚡ ";
+}
+
+.skill-icon {
+  font-size: 3rem;
+}
+
+/* Nombre de cada habilidad técnica (MySQL, HTML, CSS, etc.) */
+.section p.mt-2 {
+  color: var(--violeta);
+  font-weight: 600;
+}
