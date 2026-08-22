@@ -46,6 +46,10 @@ body {
   color: var(--violeta);
 }
 
+.hero-interno {
+  min-height: 30vh;
+}
+
 .hero .card {
   border-color: var(--violeta) !important;
   background-color: #ffffff;
@@ -78,6 +82,16 @@ body {
 
 .skill-icon {
   font-size: 3rem;
+}
+
+.skill-label {
+  font-weight: 600;
+  color: var(--violeta);
+  margin-bottom: 0.4rem;
+}
+
+.progress-bar {
+  background-color: var(--violeta);
 }
 
 /* Nombre de cada habilidad técnica (MySQL, HTML, CSS, etc.) */

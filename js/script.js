@@ -36,3 +36,25 @@ document.addEventListener('DOMContentLoaded', () => {
       console.error(err);
     });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  const contenedor = document.getElementById('lista-habilidades');
+
+  // Esta sección solo corre si existe el contenedor en la página actual
+  if (contenedor && typeof habilidades !== 'undefined') {
+    habilidades.forEach(hab => {
+      const bloque = document.createElement('div');
+      bloque.className = 'mb-4';
+      bloque.innerHTML = `
+        <p class="skill-label">${hab.nombre}</p>
+        <div class="progress" style="height: 20px;">
+          <div class="progress-bar" role="progressbar" style="width: ${hab.porcentaje}%;" 
+               aria-valuenow="${hab.porcentaje}" aria-valuemin="0" aria-valuemax="100">
+            ${hab.porcentaje}%
+          </div>
+        </div>
+      `;
+      contenedor.appendChild(bloque);
+    });
+  }
+});
