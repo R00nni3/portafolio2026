@@ -1,3 +1,4 @@
+/**Contiene los Datos que utilicé para mis habilidades */
 const habilidades = [
   { nombre: "MySQL", porcentaje: 80 },
   { nombre: "HTML", porcentaje: 60 },
