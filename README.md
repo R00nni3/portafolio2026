@@ -15,7 +15,7 @@ Este es un portafolio personal que fue creado para la asignatura de Desarrollo W
 
 # Estructura
 
-\`\`\`
+```
 portafolio/
 ├── css/
 │   └── style.css
@@ -35,7 +35,7 @@ portafolio/
 ├── experiencia.html
 ├── contacto.html
 └── README.md
-\`\`\`
+```
 
 # Requisitos
 - JDK instalado
