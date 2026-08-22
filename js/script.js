@@ -1,3 +1,5 @@
+/*Conecta con la API de Github para traer los repositorios y mostrarlos en la sección de proyectos*/
+
 document.addEventListener('DOMContentLoaded', () => {
   const usuario = 'R00nni3';
   const repoExcluido = 'portafolio2026';
@@ -37,6 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+/* Esta sección es para mostrar las habilidades en la página de habilidades */
 document.addEventListener('DOMContentLoaded', () => {
   const contenedor = document.getElementById('lista-habilidades');
 
