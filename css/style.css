@@ -1,5 +1,59 @@
 /* ============================
-   1. Variables de color
+   1. CSS RESET para normalizar estilos entre navegadores
+   ============================ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  overflow-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* ============================
+   2. Variables de color
    ============================ */
 :root {
   --rosa-cuarzo: #f7cac9;
@@ -10,7 +64,7 @@
 }
 
 /* ============================
-   Base
+   3.Base
    ============================ */
 body {
   font-family: 'Inter', sans-serif;
@@ -20,7 +74,7 @@ body {
 }
 
 /* ============================
-   Letra del logo en Navbar
+   4.Letra del logo en Navbar
    ============================ */
 .logo-letter {
   display: inline-flex;
@@ -38,7 +92,7 @@ body {
 }
 
 /* ============================
-   HERO 
+   5.HERO 
    ============================ */
 .titulo-destacado {
   font-family: 'JetBrains Mono', monospace;
@@ -66,7 +120,7 @@ body {
 }
 
 /* ============================
-  Habilidades
+  6.Habilidades
    ============================ */
 .eyebrow {
   color: var(--violeta);
@@ -101,7 +155,7 @@ body {
 }
 
 /* ============================
-   NEWSLETTER
+   7.NEWSLETTER
    ============================ */
 .rounded-md {
   border-radius: 16px;
